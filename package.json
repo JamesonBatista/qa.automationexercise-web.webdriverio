@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "clear && wdio run ./wdio.conf.js",
-    "test:headless": "wdio run ./wdio.conf.js && npm run allure:generate",
+    "test:headless": "wdio run ./wdio.conf.js",
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open"
   },
